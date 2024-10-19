@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c51458; /* Tom de rosa mais escuro */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(231, 15, 116);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #fd6899; /* Rosa claro */
+}
+
+p {
+    color: #ff8c9d; /* Fonte com tom rosa claro */
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+button {
+    background-color: #ff69b4;
+    color: rgb(152, 17, 156);
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ff1493;
+}
